@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+/*Top Header*/
+.top_header {
+    background-image: url(../img/header-bannar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 890px;
+    width: 100%;
+}
+
+.top_content {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.top_content h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.top_content a {
+    padding: 5px 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fa6501;
+}
+
+
+
+/*NavBar Start*/
+
+.custom_nav li {
+    padding: 0 10px;
+}
+
+.custom_nav li a {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    border: 2px solid #fff0e6 !important;
+    border-radius: .25rem;
+}
+
+.nav_container {
+    border-top: 2px solid #fca062;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav_nav img {
+        height: 70%px;
+        width: 70%;
+    }
+}
+
+
+/*Slider Content*/
+.slider_content h1 {
+    font-weight: bold;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.slider_content p {
+    color: #000;
+    font-size: 18px;
+}
+
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    border: 3px solid #fff;
+    padding: 8px 30px;
+}
+
+.slider_content a {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+
+/*Online Tech*/
+.online_tech {
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+.online_tech h2 {
+    font-weight: bold;
+}
+
+.online_tech span {
+    color: #fa6501;
+}
+
+.custom_row_tech {
+    padding-top: 80px;
+}
+
+.custom_tech {
+    text-align: center;
+}
+
+.custom_tech p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background: #fa6501;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.custom_tech h5 {
+    font-size: 35px;
+}
+
+.right_col {
+    padding-top: 10%;
+}
+
+
+
+/*Signup button*/
+.signup_btn {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.signup_btn a {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 35px;
+    font-size: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #fa6501;
+    border-color: #fa6501;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fd9956;
+    border-color: #fd9956;
+}
+
+
+/*Testimonial*/
+.testimonial {
+    margin-top: 80px;
+}
+
+.custom_card {
+    border: none;
+    text-align: center;
+    display: inline;
+}
+
+.custom_card img {
+    max-width: 30%;
+    max-height: 30%;
+    text-align: center;
+}
+
+.custom_people p {
+    position: relative;
+}
+
+.custom_people p:before {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #fa6501;
+    position: absolute;
+    right: -65px;
+    top: 50%;
+    content: "";
+}
+
+
+/*Online Teaching*/
+.online_teaching {
+    background: #1d334e;
+    height: 800px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.online_teaching_text {
+    padding-top: 50px;
+}
+
+.onliner_teaching_text h3 {
+    color: #fa6501;
+}
+
+.online_teaching_text p {
+    color: #fff;
+}
+
+.online_img {
+    padding: 30px;
+    height: 160px;  
+    vertical-align: bottom;
+    display: table-cell;
+}
